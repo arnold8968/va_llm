@@ -79,6 +79,9 @@ pip install -r requirements.txt
 ## Analysis
 The RAG LLaMA models significantly outperformed the basic LLaMA model, as indicated by the higher BLEU and ROUGE-L scores. The RAG LLaMA Rerank model achieved the best performance, demonstrating the effectiveness of combining similarity search with reranking to improve the relevance and accuracy of the generated answers.
 
+
+![image](https://github.com/arnold8968/va_llm/assets/9800659/2cfead5b-6eea-4764-9e5d-3c0a8bae8c78)
+
 Key Takeaways
 
 Data Preparation: Proper structuring and saving of data in HTML format allowed for efficient vector database creation and retrieval.
