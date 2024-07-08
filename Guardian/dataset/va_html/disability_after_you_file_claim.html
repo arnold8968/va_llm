@@ -1,0 +1,1271 @@
+<!DOCTYPE html><!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]--><!--[if IE 7 ]> <html lang="en" class="ie7"> <![endif]--><!--[if IE 8 ]> <html lang="en" class="ie8"> <![endif]--><!--[if IE 9 ]> <html lang="en" class="ie9"> <![endif]--><!--[if (gt IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]--><!--
+  layout: page.drupal.liquid
+  path: disability/after-you-file-claim
+  entityId: 870
+--><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Preconnecting required origins: https://web.dev/uses-rel-preconnect/ -->
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+
+  <!-- Index only pages on production. -->
+
+  <!-- Add metatags. -->
+<!-- Canonical URL -->
+  <link rel="canonical" href="https://www.va.gov/disability/after-you-file-claim/">
+
+<!-- Last updated -->
+  <meta name="DC.Date" scheme="W3CDTF" content="2024-06-11">
+
+
+<!-- Last updated -->
+
+<!-- Mobile App Promo Banners config -->
+
+<!-- End Mobile App Promo Banners config -->
+
+<!-- og:url -->
+  <meta property="og:url" content="https://www.va.gov/disability/after-you-file-claim/">
+
+<!-- og:type -->
+<meta property="og:type" content="website">
+
+<!-- article:tags -->
+
+<!-- Custom metatags -->
+                          <meta name="description" content="Learn about what happens after you file your claim. And find out the average number of days it takes to process a VA disability claim.">
+                    <link rel="image_src" href="https://www.va.gov/img/design/logo/va-og-image.png">
+                        <meta property="og:description" content="Learn about what happens after you file your claim. And find out the average number of days it takes to process a VA disability claim.">
+                              <meta property="og:image" content="https://www.va.gov/img/design/logo/va-og-image.png">
+                              <meta property="og:image:alt" content="U.S. Department of Veterans Affairs">
+                              <meta property="og:site_name" content="Veterans Affairs">
+                              <meta property="og:title" content="The VA claim process after you file your claim | Veterans Affairs">
+                              <title>The VA Claim Process After You File Your Claim | Veterans Affairs</title>
+                              <meta name="twitter:card" content="summary_large_image">
+                              <meta name="twitter:description" content="Find out what happens in the VA claim process after you file your disability claim. Learn about the steps in the VA disability claim process and how long it takes on average to get your VA disability rating.">
+                              <meta name="twitter:image" content="https://www.va.gov/img/design/logo/va-og-image.png">
+                              <meta name="twitter:image:alt" content="U.S. Department of Veterans Affairs">
+                              <meta name="twitter:site" content="@DeptVetAffairs">
+                              <meta name="twitter:title" content="The VA claim process after you file your claim | Veterans Affairs">
+        
+<!-- Default metatags -->
+
+  <!-- Add polyfills. -->
+  <script nonce="cAe4I2Abrk70icevv4o2DLwSJRme8tnd" nomodule data-entry-name="polyfills.js" src="https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/polyfills.entry.js"></script>
+
+  <!-- Add analytics helpers. -->
+  <script nonce="cAe4I2Abrk70icevv4o2DLwSJRme8tnd">
+/**
+ * An alias for window.dataLayer.push made available under the window so that it is accessible in content files.
+ * @module module:record-event
+ * @see https://developers.google.com/tag-manager/devguide
+ * @see module:platform/monitoring/record-event
+ * @param {object} data - The event data that will be sent to GA.
+ */
+window.dataLayer = [] || window.dataLayer;
+window.recordEvent = function(data) {
+  return window.dataLayer.push(data);
+};
+window.recordMultipleEvents = function (events){
+  events.forEach(event => recordEvent(event))
+}
+  </script>
+
+  <!-- Add web components. -->
+    <link rel="stylesheet" data-entry-name="web-components.css" href="https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/web-components.css">
+
+      <script nonce="cAe4I2Abrk70icevv4o2DLwSJRme8tnd" defer data-entry-name="web-components.js" src="https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/web-components.entry.js"></script>
+  
+  <!-- Render GA template. -->
+
+    
+
+
+<script data-e2e="analytics-script" nonce="cAe4I2Abrk70icevv4o2DLwSJRme8tnd">
+        (function(w, d, s, l, i) {
+  w[l] = w[l] || [];
+  w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+  var f = d.getElementsByTagName(s)[0],
+    j = d.createElement(s),
+    dl = l != 'dataLayer' ? '&l=' + l : '';
+  j.async = true;
+  j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+  f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-WFJWBD');
+      (function(window) {
+  function withFormContent(acc, data) {
+    //console.log("acc.content data",data.Content);
+    acc.content = data.Content;
+  }
+
+  function withFeedbackUUID(acc, data) {
+    acc.feedbackUUID = data.Feedback_UUID;
+  }
+
+  function mEvent(name, action, opts) {
+    opts = opts || {};
+    var custom = opts.custom;
+    var label = opts.label;
+
+    function handle(event) {
+      var start = +new Date();
+      var cm = window.cm || function() {};
+      var mData = event.detail;
+      var eData = {
+        category: 'Medallia',
+        action: action,
+        label: label || mData.Form_Type,
+        value: mData.Form_ID,
+        myParams: {},
+      };
+      if (custom) {
+        for (var i = 0; i < custom.length; i++)
+          custom[i](eData.myParams, mData);
+      }
+      var end = +new Date();
+      console.log('send', 'event', eData, end - start);
+      recordEvent({
+        event: eData.action,
+        'survey-tool': eData.category,
+        'survey-form-id': eData.value,
+        'survey-status': eData.label,
+        'survey-details': eData.myParams,
+      });
+    }
+    window.addEventListener('MDigital_' + name, handle);
+  }
+  mEvent('ShowForm_Called', 'survey-show-form-call');
+  mEvent('Form_Displayed', 'survey-start-form');
+  mEvent('Form_Next_Page', 'survey-next-click');
+  mEvent('Form_Back_Page', 'survey-back-click');
+  mEvent('Form_Close_Submitted', 'survey-submit-close');
+  mEvent('Form_Close_No_Submit', 'survey-no-submit-close');
+  mEvent('Feedback_Submit', 'survey-submit', {
+    custom: [withFeedbackUUID, withFormContent],
+  });
+  mEvent('Submit_Feedback', 'survey--submission', {
+    custom: [withFeedbackUUID, withFormContent],
+  });
+  mEvent('Feedback_Button_Clicked', 'survey-button-click', {
+    custom: [withFeedbackUUID],
+  });
+  mEvent('ThankYou_Displayed', 'survey--submission-successful', {
+    custom: [withFeedbackUUID, withFormContent],
+  });
+  mEvent('Invite_Displayed', 'survey-invitation-display', {
+    label: 'Invite',
+  });
+  mEvent('Invite_Accepted', 'survey-invitation-accept', {
+    label: 'Invite',
+  });
+  mEvent('Invite_Declined', 'survey-invitation-decline', {
+    label: 'Invite',
+  });
+  mEvent('Invite_Skipped', 'survey-invitation-skip', {
+    label: 'Invite',
+  });
+})(window);
+    
+  recordEvent({ environment: 'vagovprod' });
+  if ( self !== top ) {
+    recordEvent({ event: 'iframed', embeddedIn: document.referrer });
+  }
+</script>
+
+
+  <!-- Add Icons. -->
+  <link href="https://s3-us-gov-west-1.amazonaws.com/content.www.va.gov/img/design/icons/apple-touch-icon.png" rel="apple-touch-icon-precomposed">
+  <link href="https://s3-us-gov-west-1.amazonaws.com/content.www.va.gov/img/design/icons/apple-touch-icon-72x72.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+  <link href="https://s3-us-gov-west-1.amazonaws.com/content.www.va.gov/img/design/icons/apple-touch-icon-114x114.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+  <link href="https://s3-us-gov-west-1.amazonaws.com/content.www.va.gov/img/design/icons/apple-touch-icon-152x152.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+  <link rel="shortcut icon" href="https://s3-us-gov-west-1.amazonaws.com/content.www.va.gov/img/design/icons/favicon.ico">
+
+  <meta name="msapplication-TileImage" content="/img/design/icons/apple-touch-icon-114x114">
+  <meta name="msapplication-TileColor" content="#144073">
+
+  <!-- Preload main fonts -->
+  <link rel="preload" href="https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/sourcesanspro-bold-webfont.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/sourcesanspro-regular-webfont.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/bitter-bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+  <!-- CSS -->
+
+    <link rel="stylesheet" data-entry-name="style.css" href="https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/style.css">
+  <link rel="stylesheet" data-entry-content="content-build.css" href="https://s3-us-gov-west-1.amazonaws.com/content.www.va.gov/assets/content-build.css">
+  <link rel="stylesheet" data-entry-name="static-pages.css" href="https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/static-pages.css">
+
+  <!-- Old IE -->
+
+  <!--[if lt IE 9]>
+<link rel='stylesheet' href='/assets/css/ie.css'>
+<![endif]-->
+
+
+  <script nonce="cAe4I2Abrk70icevv4o2DLwSJRme8tnd" defer data-entry-name="vendor.js" src="https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/vendor.entry.js"></script>
+  <script nonce="cAe4I2Abrk70icevv4o2DLwSJRme8tnd" defer data-entry-name="static-pages.js" src="https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/static-pages.entry.js"></script>
+
+  <!--
+  We participate in the US governmentâs analytics program. See the data at analytics.usa.gov.
+  https://github.com/digital-analytics-program/gov-wide-code
+-->
+  <script async type="text/javascript" nonce="cAe4I2Abrk70icevv4o2DLwSJRme8tnd" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=VA" id="_fed_an_ua_tag"></script>
+
+  <script nonce="cAe4I2Abrk70icevv4o2DLwSJRme8tnd" type="text/javascript">
+    function focusContent(e) {
+      e.preventDefault();
+      const contentElement = document.querySelector('#content h1') || document.querySelector('#content');
+      contentElement.setAttribute('tabindex', '-1');
+      contentElement.addEventListener('blur', function(event) {
+        event.target.removeAttribute('tabindex');
+      }, true);
+      window.scrollTo(0, contentElement.offsetTop);
+      contentElement.focus();
+    }
+    window.VetsGov = window.VetsGov || {};
+    window.VetsGov.headerFooter = JSON.parse("{\"footerData\":[{\"column\":\"bottom_rail\",\"href\":\"https://www.va.gov/accessibility-at-va\",\"order\":1,\"target\":null,\"title\":\"Accessibility\"},{\"column\":\"bottom_rail\",\"href\":\"https://www.va.gov/resources/your-civil-rights-and-how-to-file-a-discrimination-complaint/\",\"order\":2,\"target\":null,\"title\":\"Civil Rights\"},{\"column\":\"bottom_rail\",\"href\":\"https://department.va.gov/foia/\",\"order\":3,\"target\":null,\"title\":\"Freedom of Information Act (FOIA)\"},{\"column\":\"bottom_rail\",\"href\":\"https://www.va.gov/report-harassment/\",\"order\":4,\"target\":null,\"title\":\"Harassment\"},{\"column\":\"bottom_rail\",\"href\":\"https://www.va.gov/oig/\",\"order\":5,\"target\":null,\"title\":\"Office of Inspector General\"},{\"column\":\"bottom_rail\",\"href\":\"https://www.va.gov/opa/Plain_Language.asp\",\"order\":6,\"target\":null,\"title\":\"Plain language\"},{\"column\":\"bottom_rail\",\"href\":\"https://www.va.gov/privacy-policy/\",\"order\":7,\"target\":null,\"title\":\"Privacy, policies, and legal information\"},{\"column\":\"bottom_rail\",\"href\":\"https://www.oprm.va.gov/\",\"order\":8,\"target\":null,\"title\":\"VA Privacy Service\"},{\"column\":\"bottom_rail\",\"href\":\"https://www.va.gov/ormdi/NOFEAR_Select.asp\",\"order\":9,\"target\":null,\"title\":\"No FEAR Act Data\"},{\"column\":\"bottom_rail\",\"href\":\"https://www.usa.gov/\",\"order\":10,\"target\":null,\"title\":\"USA.gov\"},{\"column\":\"bottom_rail\",\"href\":\"https://www.va.gov/performance-dashboard/\",\"order\":11,\"target\":null,\"title\":\"VA performance dashboard\"},{\"column\":\"bottom_rail\",\"href\":\"https://www.va.gov/veterans-portrait-project/\",\"order\":12,\"target\":null,\"title\":\"Veterans Portrait Project\"},{\"column\":1,\"href\":\"https://www.va.gov/homeless/\",\"order\":1,\"target\":null,\"title\":\"Homeless Veterans\"},{\"column\":1,\"href\":\"https://www.va.gov/womenvet/\",\"order\":2,\"target\":null,\"title\":\"Women Veterans\"},{\"column\":1,\"href\":\"https://www.va.gov/centerforminorityveterans/\",\"order\":3,\"target\":null,\"title\":\"Minority Veterans\"},{\"column\":1,\"href\":\"https://www.patientcare.va.gov/lgbt/\",\"order\":4,\"target\":null,\"title\":\"LGBTQ+ Veterans\"},{\"column\":1,\"href\":\"https://www.ptsd.va.gov/\",\"order\":5,\"target\":null,\"title\":\"PTSD\"},{\"column\":1,\"href\":\"https://www.mentalhealth.va.gov/\",\"order\":6,\"target\":null,\"title\":\"Mental health\"},{\"column\":1,\"href\":\"https://department.va.gov/veteran-sports/\",\"order\":7,\"target\":null,\"title\":\"Adaptive sports and special events\"},{\"column\":1,\"href\":\"https://www.va.gov/outreach-and-events/events/\",\"order\":8,\"target\":null,\"title\":\"VA outreach events\"},{\"column\":1,\"href\":\"https://www.nrd.gov/\",\"order\":9,\"target\":null,\"title\":\"National Resource Directory\"},{\"column\":2,\"href\":\"https://www.va.gov/find-forms/\",\"order\":1,\"target\":null,\"title\":\"VA forms\"},{\"column\":2,\"href\":\"https://www.accesstocare.va.gov/\",\"order\":2,\"target\":null,\"title\":\"VA health care access and quality\"},{\"column\":2,\"href\":\"https://www.va.gov/get-help-from-accredited-representative\",\"order\":3,\"target\":null,\"title\":\"Get help from an accredited representative or VSO\"},{\"column\":2,\"href\":\"https://www.mobile.va.gov/appstore/\",\"order\":4,\"target\":null,\"title\":\"VA mobile apps\"},{\"column\":2,\"href\":\"https://department.va.gov/about/state-departments-of-veterans-affairs-office-locations/\",\"order\":5,\"target\":null,\"title\":\"State Veterans Affairs offices\"},{\"column\":2,\"href\":\"https://www.va.gov/opal/fo/dbwva.asp\",\"order\":6,\"target\":null,\"title\":\"Doing business with VA\"},{\"column\":2,\"href\":\"https://www.va.gov/jobs/\",\"order\":7,\"target\":null,\"title\":\"Careers at VA\"},{\"column\":2,\"href\":\"https://www.va.gov/outreach-and-events/outreach-materials\",\"order\":8,\"target\":null,\"title\":\"VA outreach materials\"},{\"column\":2,\"href\":\"https://www.va.gov/welcome-kit/\",\"order\":9,\"target\":null,\"title\":\"Your VA welcome kit\"},{\"column\":3,\"href\":\"https://news.va.gov/\",\"order\":1,\"target\":null,\"title\":\"VA news\"},{\"column\":3,\"href\":\"https://www.va.gov/opa/pressrel/\",\"order\":2,\"target\":null,\"title\":\"Press releases\"},{\"column\":3,\"href\":\"https://public.govdelivery.com/accounts/USVA/subscriber/new/\",\"order\":3,\"target\":null,\"title\":\"Email updates\"},{\"column\":3,\"href\":\"https://www.facebook.com/VeteransAffairs\",\"order\":4,\"target\":null,\"title\":\"Facebook\"},{\"column\":3,\"href\":\"https://www.instagram.com/deptvetaffairs/\",\"order\":5,\"target\":null,\"title\":\"Instagram\"},{\"column\":3,\"href\":\"https://www.twitter.com/DeptVetAffairs/\",\"order\":6,\"target\":null,\"title\":\"Twitter\"},{\"column\":3,\"href\":\"https://www.flickr.com/photos/VeteransAffairs/\",\"order\":7,\"target\":null,\"title\":\"Flickr\"},{\"column\":3,\"href\":\"https://www.youtube.com/user/DeptVetAffairs\",\"order\":8,\"target\":null,\"title\":\"YouTube\"},{\"column\":3,\"href\":\"https://digital.va.gov/web-governance/social-media/social-media-sites/\",\"order\":9,\"target\":null,\"title\":\"All VA social media\"},{\"column\":4,\"href\":\"https://www.va.gov/resources/\",\"order\":1,\"target\":null,\"title\":\"Resources and support\"},{\"column\":4,\"href\":\"https://www.va.gov/contact-us/\",\"order\":2,\"target\":null,\"title\":\"Contact us\"},{\"column\":4,\"label\":\"Call us\",\"href\":\"tel:18006982411\",\"order\":3,\"target\":null,\"title\":\"800-698-2411\"},{\"ariaLabel\":\"TTY: 7 1 1.\",\"column\":4,\"href\":\"tel:+1711\",\"order\":4,\"target\":null,\"title\":\"TTY: 711\"},{\"column\":4,\"label\":\"Visit a medical center or regional office\",\"href\":\"https://www.va.gov/find-locations/\",\"order\":5,\"target\":null,\"title\":\"Find a VA location\"}],\"megaMenuData\":[{\"title\":\"VA Benefits and Health Care\",\"menuSections\":[{\"title\":\"Health care\",\"links\":{\"seeAllLink\":{\"text\":\"View all in health care\",\"href\":\"https://www.va.gov/health-care\"},\"columnOne\":{\"title\":\"Get health care benefits\",\"links\":[{\"text\":\"About VA health benefits\",\"href\":\"https://www.va.gov/health-care/about-va-health-benefits\"},{\"text\":\"How to apply\",\"href\":\"https://www.va.gov/health-care/how-to-apply\"},{\"text\":\"Family and caregiver health benefits\",\"href\":\"https://www.va.gov/health-care/family-caregiver-benefits\"},{\"text\":\"Apply now for health care\",\"href\":\"https://www.va.gov/health-care/apply/application\"}]},\"columnTwo\":{\"title\":\"Manage your health\",\"links\":[{\"text\":\"Refill and track your prescriptions\",\"href\":\"https://www.va.gov/health-care/refill-track-prescriptions\"},{\"text\":\"Send a secure message to your health care team\",\"href\":\"https://www.va.gov/health-care/secure-messaging\"},{\"text\":\"Schedule and manage health appointments\",\"href\":\"https://www.va.gov/health-care/schedule-view-va-appointments\"},{\"text\":\"View your lab and test results\",\"href\":\"https://www.va.gov/health-care/view-test-and-lab-results\"},{\"text\":\"Order medical supplies\",\"href\":\"https://www.va.gov/health-care/order-medical-supplies\"}]},\"columnThree\":{\"img\":{\"src\":\"https://www.va.gov/img/styles/3_2_medium_thumbnail/public/hub_promos/health-care.png\",\"alt\":\"\"},\"link\":{\"text\":\"The PACT Act and your VA benefits\",\"href\":\"https://www.va.gov/resources/the-pact-act-and-your-va-benefits/\"},\"description\":\"Learn what this law means for Veterans and their survivors.\"}}},{\"title\":\"Disability\",\"links\":{\"seeAllLink\":{\"text\":\"View all in disability\",\"href\":\"https://www.va.gov/disability\"},\"columnOne\":{\"title\":\"Get disability benefits\",\"links\":[{\"text\":\"Eligibility\",\"href\":\"https://www.va.gov/disability/eligibility\"},{\"text\":\"How to file a claim\",\"href\":\"https://www.va.gov/disability/how-to-file-claim\"},{\"text\":\"Survivor and dependent compensation (DIC)\",\"href\":\"https://www.va.gov/disability/dependency-indemnity-compensation\"},{\"text\":\"File a claim online\",\"href\":\"https://www.va.gov/disability/file-disability-claim-form-21-526ez/\"}]},\"columnTwo\":{\"title\":\"Manage your benefits\",\"links\":[{\"text\":\"Check your claim, decision review, or appeal status\",\"href\":\"https://www.va.gov/claim-or-appeal-status\"},{\"text\":\"View your payment history\",\"href\":\"https://www.va.gov/va-payment-history\"},{\"text\":\"Upload evidence to support your claim\",\"href\":\"https://www.va.gov/disability/upload-supporting-evidence\"},{\"text\":\"File for a VA disability increase\",\"href\":\"https://www.va.gov/disability/file-disability-claim-form-21-526ez/\"},{\"text\":\"Request a decision review or appeal\",\"href\":\"https://www.va.gov/decision-reviews\"}]},\"columnThree\":{\"img\":{\"src\":\"https://www.va.gov/img/styles/3_2_medium_thumbnail/public/hub_promos/disability.png\",\"alt\":\"\"},\"link\":{\"text\":\"Fully Developed Claims program\",\"href\":\"https://www.va.gov/disability/how-to-file-claim/evidence-needed/fully-developed-claims\"},\"description\":\"Use this program to get a faster decision by submitting evidence along with your claim.\"}}},{\"title\":\"Education and training\",\"links\":{\"seeAllLink\":{\"text\":\"View all in education\",\"href\":\"https://www.va.gov/education\"},\"columnOne\":{\"title\":\"Get education benefits\",\"links\":[{\"text\":\"About GI Bill benefits\",\"href\":\"https://www.va.gov/education/about-gi-bill-benefits\"},{\"text\":\"Eligibility\",\"href\":\"https://www.va.gov/education/eligibility\"},{\"text\":\"How to apply\",\"href\":\"https://www.va.gov/education/how-to-apply\"},{\"text\":\"Veteran Readiness and Employment (Chapter 31)\",\"href\":\"https://www.va.gov/careers-employment/vocational-rehabilitation\"},{\"text\":\"Survivor and dependent benefits\",\"href\":\"https://www.va.gov/education/survivor-dependent-benefits\"}]},\"columnTwo\":{\"title\":\"Manage your benefits\",\"links\":[{\"text\":\"View your VA payment history\",\"href\":\"https://www.va.gov/va-payment-history\"},{\"text\":\"Check Post-9/11 GI Bill Statement of Benefits\",\"href\":\"https://www.va.gov/education/check-post-9-11-gi-bill-benefits\"},{\"text\":\"Transfer your Post-9/11 GI Bill benefits\",\"href\":\"https://www.va.gov/education/transfer-post-9-11-gi-bill-benefits\"},{\"text\":\"Change your GI Bill school or program\",\"href\":\"https://www.va.gov/education/change-gi-bill-benefits\"},{\"text\":\"Change your direct deposit information\",\"href\":\"https://www.va.gov/change-direct-deposit\"}]},\"columnThree\":{\"img\":{\"src\":\"https://www.va.gov/img/styles/3_2_medium_thumbnail/public/hub_promos/education.png\",\"alt\":\"\"},\"link\":{\"text\":\"GI Bill\u00AE Comparison Tool\",\"href\":\"https://www.va.gov/education/gi-bill-comparison-tool\"},\"description\":\"Learn about education programs and compare benefits by school.\"}}},{\"title\":\"Careers and employment\",\"links\":{\"seeAllLink\":{\"text\":\"View all in careers and employment\",\"href\":\"https://www.va.gov/careers-employment\"},\"columnOne\":{\"title\":\"Get employment benefits\",\"links\":[{\"text\":\"About Veteran Readiness and Employment (VR&E)\",\"href\":\"https://www.va.gov/careers-employment/vocational-rehabilitation\"},{\"text\":\"How to apply\",\"href\":\"https://www.va.gov/careers-employment/vocational-rehabilitation/how-to-apply\"},{\"text\":\"Educational and career counseling\",\"href\":\"https://www.va.gov/careers-employment/education-and-career-counseling\"},{\"text\":\"Veteran-owned small business support\",\"href\":\"https://www.va.gov/careers-employment/veteran-owned-business-support\"},{\"text\":\"Apply for VR&E benefits\",\"href\":\"https://www.va.gov/careers-employment/vocational-rehabilitation/apply-vre-form-28-1900/\"}]},\"columnTwo\":{\"title\":\"Manage your career\",\"links\":[{\"text\":\"VA transition assistance\",\"href\":\"https://www.benefits.va.gov/tap/\"},{\"text\":\"Find a job\",\"href\":\"https://www.dol.gov/veterans/findajob/\"},{\"text\":\"Find VA careers and support\",\"href\":\"https://www.va.gov/jobs/\"},{\"text\":\"Print your civil service preference letter\",\"href\":\"https://www.va.gov/records/download-va-letters\"}]},\"columnThree\":{\"img\":{\"src\":\"https://www.va.gov/img/styles/3_2_medium_thumbnail/public/hub_promos/careers.png\",\"alt\":\"\"},\"link\":{\"text\":\"VA for Vets\",\"href\":\"https://www.vaforvets.va.gov/\"},\"description\":\"Get help transitioning to a civilian career and matching your skills and experiences to VA job opportunities.\"}}},{\"title\":\"Pension\",\"links\":{\"seeAllLink\":{\"text\":\"View all in pension\",\"href\":\"https://www.va.gov/pension\"},\"columnOne\":{\"title\":\"Get pension benefits\",\"links\":[{\"text\":\"Veterans Pension eligibility\",\"href\":\"https://www.va.gov/pension/eligibility\"},{\"text\":\"How to apply\",\"href\":\"https://www.va.gov/pension/how-to-apply\"},{\"text\":\"Apply now for a Veterans Pension\",\"href\":\"https://www.va.gov/pension/application/527EZ\"},{\"text\":\"Aid and attendance benefits and housebound allowance\",\"href\":\"https://www.va.gov/pension/aid-attendance-housebound\"},{\"text\":\"Survivors Pension\",\"href\":\"https://www.va.gov/pension/survivors-pension\"}]},\"columnTwo\":{\"title\":\"Manage your benefits\",\"links\":[{\"text\":\"Check your claim, decision review, or appeal status\",\"href\":\"https://www.va.gov/claim-or-appeal-status\"},{\"text\":\"View your VA payment history\",\"href\":\"https://www.va.gov/va-payment-history\"},{\"text\":\"Change your address\",\"href\":\"https://www.va.gov/change-address\"},{\"text\":\"Change your direct deposit information\",\"href\":\"https://www.va.gov/change-direct-deposit\"}]},\"columnThree\":{\"img\":{\"src\":\"https://www.va.gov/img/styles/3_2_medium_thumbnail/public/hub_promos/pension.png\",\"alt\":\"\"},\"link\":{\"text\":\"Get your pension payments electronically\",\"href\":\"https://www.godirect.gov/gpw\"},\"description\":\"Sign up for direct deposit or a pre-paid debit card.\"}}},{\"title\":\"Housing assistance\",\"links\":{\"seeAllLink\":{\"text\":\"View all in housing assistance\",\"href\":\"https://www.va.gov/housing-assistance\"},\"columnOne\":{\"title\":\"Get home loan benefits\",\"links\":[{\"text\":\"About VA home loan types\",\"href\":\"https://www.va.gov/housing-assistance/home-loans/loan-types\"},{\"text\":\"How to request a COE\",\"href\":\"https://www.va.gov/housing-assistance/home-loans/how-to-request-coe\"},{\"text\":\"Check your COE status\",\"href\":\"https://www.va.gov/housing-assistance/home-loans/check-coe-status\"},{\"text\":\"Request a COE online\",\"href\":\"https://www.va.gov/housing-assistance/home-loans/request-coe-form-26-1880\"}]},\"columnTwo\":{\"title\":\"Get Veterans housing grants\",\"links\":[{\"text\":\"About disability housing grants\",\"href\":\"https://www.va.gov/housing-assistance/disability-housing-grants\"},{\"text\":\"Check your claim, decision review, or appeal status\",\"href\":\"https://www.va.gov/claim-or-appeal-status\"},{\"text\":\"How to apply for an SAH grant\",\"href\":\"https://www.va.gov/housing-assistance/disability-housing-grants/how-to-apply\"}]},\"columnThree\":{\"img\":{\"src\":\"https://www.va.gov/img/styles/3_2_medium_thumbnail/public/hub_promos/housing.png\",\"alt\":\"\"},\"link\":{\"text\":\"National Call Center for Homeless Veterans\",\"href\":\"https://www.va.gov/homeless/nationalcallcenter.asp\"},\"description\":\"Find out how we can help you or a Veteran you care about connect with VA and local resources 24 hours a day, 7 days a week.\"}}},{\"title\":\"Life insurance\",\"links\":{\"seeAllLink\":{\"text\":\"View all in life insurance\",\"href\":\"https://www.va.gov/life-insurance\"},\"columnOne\":{\"title\":\"Get life insurance\",\"links\":[{\"text\":\"About life insurance options\",\"href\":\"https://www.va.gov/life-insurance/options-eligibility\"},{\"text\":\"Benefits for totally disabled or terminally ill policyholders\",\"href\":\"https://www.va.gov/life-insurance/totally-disabled-or-terminally-ill\"},{\"text\":\"Beneficiary financial counseling and online will preparation\",\"href\":\"https://www.benefits.va.gov/insurance/bfcs.asp\"}]},\"columnTwo\":{\"title\":\"Manage your life insurance\",\"links\":[{\"text\":\"Access your policy online\",\"href\":\"https://www.va.gov/life-insurance/manage-your-policy\"},{\"text\":\"Update your beneficiaries\",\"href\":\"https://www.benefits.va.gov/INSURANCE/updatebene.asp\"},{\"text\":\"File a claim for insurance benefits\",\"href\":\"https://www.benefits.va.gov/INSURANCE/sglivgli.asp\"},{\"text\":\"Check your claim, decision review, or appeal status\",\"href\":\"https://www.va.gov/claim-or-appeal-status\"}]},\"columnThree\":{\"img\":{\"src\":\"https://www.va.gov/img/styles/3_2_medium_thumbnail/public/hub_promos/life-insurance.png\",\"alt\":\"\"},\"link\":{\"text\":\"Apply for Veterans Affairs Life Insurance (VALife)\",\"href\":\"https://insurance.va.gov/VALIFE/Fiduciary\"},\"description\":\"VALife is our new life insurance program for Veterans with service-connected disabilities.\"}}},{\"title\":\"Burials and memorials\",\"links\":{\"seeAllLink\":{\"text\":\"View all in burials and memorials\",\"href\":\"https://www.va.gov/burials-memorials\"},\"columnOne\":{\"title\":\"Get burial benefits\",\"links\":[{\"text\":\"Eligibility\",\"href\":\"https://www.va.gov/burials-memorials/eligibility\"},{\"text\":\"Pre-need burial eligibility determination\",\"href\":\"https://www.va.gov/burials-memorials/pre-need-eligibility\"},{\"text\":\"Veteran burial allowance\",\"href\":\"https://www.va.gov/burials-memorials/veterans-burial-allowance\"},{\"text\":\"Memorial items\",\"href\":\"https://www.va.gov/burials-memorials/memorial-items\"},{\"text\":\"Survivor and dependent compensation (DIC)\",\"href\":\"https://www.va.gov/disability/dependency-indemnity-compensation\"}]},\"columnTwo\":{\"title\":\"Plan a burial\",\"links\":[{\"text\":\"Schedule a burial for a Veteran or family member\",\"href\":\"https://www.va.gov/burials-memorials/schedule-a-burial\"},{\"text\":\"Find a cemetery\",\"href\":\"https://www.cem.va.gov/cems/listcem.asp\"},{\"text\":\"Request military records (DD214)\",\"href\":\"https://www.va.gov/records/get-military-service-records\"}]},\"columnThree\":{\"img\":{\"src\":\"https://www.va.gov/img/styles/3_2_medium_thumbnail/public/hub_promos/burials.png\",\"alt\":\"\"},\"link\":{\"text\":\"Find National Cemetery Administration Information\",\"href\":\"https://www.cem.va.gov/\"},\"description\":\"Locate a grave, search for cemeteries, and find benefits information and resources.\"}}},{\"title\":\"Records\",\"links\":{\"seeAllLink\":{\"text\":\"View all in records\",\"href\":\"https://www.va.gov/records\"},\"columnOne\":{\"title\":\"Get your records\",\"links\":[{\"text\":\"Get your VA medical records (Blue Button)\",\"href\":\"https://www.va.gov/health-care/get-medical-records\"},{\"text\":\"Download your VA benefits letters\",\"href\":\"https://www.va.gov/records/download-va-letters\"},{\"text\":\"How to request a VA home loan Certificate of Eligibility (COE)\",\"href\":\"https://www.va.gov/housing-assistance/home-loans/how-to-request-coe\"},{\"text\":\"Get Veteran ID cards\",\"href\":\"https://www.va.gov/records/get-veteran-id-cards\"}]},\"columnTwo\":{\"title\":\"Manage your records\",\"links\":[{\"text\":\"Request your military records (DD214)\",\"href\":\"https://www.va.gov/records/get-military-service-records\"},{\"text\":\"Change your address\",\"href\":\"https://www.va.gov/change-address\"},{\"text\":\"How to apply for a discharge upgrade\",\"href\":\"https://www.va.gov/discharge-upgrade-instructions\"},{\"text\":\"View your VA payment history\",\"href\":\"https://www.va.gov/va-payment-history\"},{\"text\":\"Search historical military records (National Archives)\",\"href\":\"https://www.archives.gov/\"}]},\"columnThree\":{\"img\":{\"src\":\"https://www.va.gov/img/styles/3_2_medium_thumbnail/public/hub_promos/records.png\",\"alt\":\"\"},\"link\":{\"text\":\"Confirm your VA benefit status\",\"href\":\"https://www.va.gov/records/download-va-letters\"},\"description\":\"Download letters like your eligibility or award letter for certain benefits.\"}}},{\"title\":\"Service member benefits\",\"text\":\"Service member benefits\",\"href\":\"https://www.va.gov/service-member-benefits\"},{\"title\":\"Family member benefits\",\"text\":\"Family member benefits\",\"href\":\"https://www.va.gov/family-member-benefits\"}]},{\"title\":\"About VA\",\"menuSections\":{\"mainColumn\":{\"title\":\"VA organizations\",\"links\":[{\"text\":\"Veterans Health Administration\",\"href\":\"https://www.va.gov/health\"},{\"text\":\"Veterans Benefits Administration\",\"href\":\"https://www.benefits.va.gov/benefits/\"},{\"text\":\"National Cemetery Administration\",\"href\":\"https://www.cem.va.gov/\"},{\"text\":\"VA Leadership\",\"href\":\"https://department.va.gov/biographies/?_bio_position=assistant-secretary%2Cchairman%2Cdeputy-secretary%2Cgeneral-counsel%2Cinspector-general%2Cprincipal-executive-director%2Csecretary%2Cunder-secretary%2Cva-chief-of-staff/%3Fredirect%3D1%2Cva-chief-of-staff\"},{\"text\":\"Public Affairs\",\"href\":\"https://department.va.gov/administrations-and-offices/public-and-intergovernmental-affairs/\"},{\"text\":\"Congressional Affairs\",\"href\":\"https://www.va.gov/oca/index.asp\"},{\"text\":\"All VA offices and organizations\",\"href\":\"https://department.va.gov/about/\"}]},\"columnOne\":{\"title\":\"Innovation at VA\",\"links\":[{\"text\":\"Health research\",\"href\":\"https://www.research.va.gov/\"},{\"text\":\"Public health\",\"href\":\"https://www.publichealth.va.gov/\"},{\"text\":\"VA open data\",\"href\":\"https://www.va.gov/data/\"},{\"text\":\"Veterans analysis and statistics\",\"href\":\"https://www.va.gov/VETDATA/index.asp\"},{\"text\":\"Appeals modernization\",\"href\":\"https://www.benefits.va.gov/benefits/appeals.asp\"},{\"text\":\"VA Innovation Center\",\"href\":\"https://www.innovation.va.gov/\"},{\"text\":\"Recovery Act\",\"href\":\"https://www.va.gov/recovery/\"}]},\"columnTwo\":{\"title\":\"Learn about VA\",\"links\":[{\"text\":\"About VA\",\"href\":\"https://department.va.gov/about/\"},{\"text\":\"History of VA\",\"href\":\"https://department.va.gov/history/\"},{\"text\":\"VA plans, budget, finances, and performance\",\"href\":\"https://department.va.gov/about/va-plans-budget-finances-and-performance/\"},{\"text\":\"National cemetery history program\",\"href\":\"https://www.cem.va.gov/cem/history/index.asp\"},{\"text\":\"Veterans legacy program\",\"href\":\"https://www.cem.va.gov/cem/legacy/index.asp\"},{\"text\":\"Volunteer or donate\",\"href\":\"https://www.volunteer.va.gov/index.asp\"}]},\"columnThree\":{\"img\":{\"src\":\"https://www.va.gov/img/styles/3_2_medium_thumbnail/public/2023-11/disability%20icon.png\",\"alt\":\"Paper icon\"},\"link\":{\"text\":\"Agency Financial Report\",\"href\":\"https://department.va.gov/administrations-and-offices/management/finance/agency-financial-report/\"},\"description\":\"View the FY 2023 report that includes VA accomplishments with taxpayer dollars and the challenges that remain.\"}}},{\"title\":\"Find a VA Location\",\"href\":\"https://www.va.gov/find-locations\"}]}");
+  </script>
+
+
+  
+<script defer type="text/javascript" nonce="cAe4I2Abrk70icevv4o2DLwSJRme8tnd" src="https://resource.digital.voice.va.gov/wdcvoice/2/onsite/embed.js" async></script>
+
+
+
+
+
+</head>
+
+<body class=" merger">
+  <div id="announcement-root"></div>
+  <!-- Draft status -->
+
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WFJWBD" height="0" width="0" class="csp-inline-patch-footer"></iframe></noscript>
+
+  <a class="show-on-focus" href="#content" id="2443c085a7e891011c53270a60f6a9bd">Skip to Content</a>
+
+
+  <!-- Header Default-->
+  <header class="header" role="banner" id="header-default">
+    <!-- Mobile Layout -->
+    <div data-widget-type="header" data-show="true" data-show-nav-login="true" data-show-mega-menu="true" id="header-v2"></div>
+
+    <!-- Tablet/Desktop Layout -->
+      <div id="legacy-header" class="vads-u-display--none">
+  <div class="va-notice--banner">
+    <div class="va-notice--banner-inner">
+<div class="usa-banner">
+  <div class="usa-accordion">
+    <div class="usa-banner-header">
+      <div class="usa-grid usa-banner-inner">
+      <img src="https://s3-us-gov-west-1.amazonaws.com/content.www.va.gov/img/tiny-usa-flag.png" alt="U.S. flag" height="20" width="20">
+      <p>An official website of the United States government</p>
+      <button id="usa-banner-toggle" class="usa-accordion-button usa-banner-button" aria-expanded="false" aria-controls="gov-banner">
+        <span class="usa-banner-button-text">Here&#x2019;s how you know</span>
+      </button>
+      </div>
+    </div>
+    <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner" aria-hidden="true">
+      <div class="usa-banner-guidance-gov usa-width-one-half">
+        <img class="usa-banner-icon usa-media_block-img" src="https://s3-us-gov-west-1.amazonaws.com/content.www.va.gov/img/icon-dot-gov.svg" alt="Dot gov">
+        <div class="usa-media_block-body">
+          <p>
+            <strong>The .gov means it&#x2019;s official.</strong>
+            <br>
+            Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you&apos;re on a federal government site.
+          </p>
+        </div>
+      </div>
+      <div class="usa-banner-guidance-ssl usa-width-one-half">
+        <img class="usa-banner-icon usa-media_block-img" src="https://s3-us-gov-west-1.amazonaws.com/content.www.va.gov/img/icon-https.svg" alt="SSL">
+        <div class="usa-media_block-body">
+          <p>
+            <strong>The site is secure.</strong>
+            <br> The <strong>https://</strong> ensures that you&apos;re connecting to the official website and that any information you provide is encrypted and sent securely.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="va-crisis-line-container vads-u-background-color--secondary-darkest">
+      <button class="va-crisis-line va-overlay-trigger vads-u-background-color--secondary-darkest" data-show="#modal-crisisline" id="7254575f0d2ce7cc45c0b29612b5cd00">
+        <div class="va-crisis-line-inner">
+          <span class="va-crisis-line-icon" aria-hidden="true"></span>
+          <span class="va-crisis-line-text" id="03e821a77d7c52ffcbb595be9c283c3d">Talk to the <strong>Veterans Crisis Line</strong> now</span>
+          <img alt aria-hidden="true" class="va-crisis-line-arrow" src="https://s3-us-gov-west-1.amazonaws.com/content.www.va.gov/img/arrow-right-white.svg">
+        </div>
+      </button>
+    </div>
+  </div>
+  <!-- /header alert box -->
+
+  <div class="row va-flex usa-grid usa-grid-full" id="va-header-logo-menu">
+    <div class="va-header-logo-wrapper">
+      <a href="/" class="va-header-logo">
+        <img src="https://s3-us-gov-west-1.amazonaws.com/content.www.va.gov/img/header-logo.png" alt="VA logo and Seal, U.S. Department of Veterans Affairs" height="59" width="264">
+      </a>
+    </div>
+      <div id="va-nav-controls"></div>
+        <div class="medium-screen:vads-u-display--none usa-grid usa-grid-full">
+          <div class="menu-rule usa-one-whole"></div>
+          <div class="mega-menu" id="mega-menu-mobile"></div>
+        </div>
+      <div id="login-root" class="vet-toolbar"></div>
+  </div>
+    <div class="usa-grid usa-grid-full">
+      <div class="menu-rule usa-one-whole"></div>
+      <div class="mega-menu" id="mega-menu"></div>
+    </div>
+</div>
+    
+    <!-- Banners -->
+<!-- Derive visible banners. -->
+
+<!-- Banners -->
+
+<!-- Maintenance banner -->
+<div aria-label="Maintenance banner" data-widget-type="maintenance-banner" role="region"></div>
+
+<!-- Derive visible promo banners. -->
+
+<!-- Promo Banners -->
+  </header>
+
+  <!-- Fullwidth banner alerts -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+  <script nonce="cAe4I2Abrk70icevv4o2DLwSJRme8tnd" type="text/javascript">
+(function() {
+  var isIe = /(trident|msie)/i.test(navigator.userAgent);
+
+  if (isIe && document.getElementById && window.addEventListener) {
+    window.addEventListener('hashchange', function skipLinkFocus() {
+      var id = location.hash.substring(1);
+      var element;
+
+      if (!/^[A-z0-9_-]+$/.test(id)) {
+        return;
+      }
+
+      element = document.getElementById(id);
+
+      if (element) {
+        if (!/^(?:a|select|input|button|textarea)$/i.test(element.tagName)) {
+          element.tabIndex = -1;
+        }
+
+        element.focus();
+      }
+    });
+  }
+})();
+  </script>
+
+<script type="text/javascript" defer nonce="cAe4I2Abrk70icevv4o2DLwSJRme8tnd">
+  window.onload = function() {
+    const contentElement = document.querySelector('.smartbanner');
+      if(contentElement){
+        contentElement.style.top = '-84px'
+      }
+  };
+</script>
+<nav data-template="includes/breadcrumbs" aria-label="Breadcrumb" aria-live="polite" class="va-nav-breadcrumbs" id="va-breadcrumbs">
+  <ul class="row va-nav-breadcrumbs-list columns" id="va-breadcrumbs-list">
+    
+
+                                                  <li>
+                <a href="/" id="76b96dd8df44af5d12e0a42faee15cc7">Home
+                </a>
+              </li>
+                                                    <li><a href="/disability" id="905578a2c322967ddbb756a6ebef1108">Disability benefits</a></li>
+                                  <li>
+          <a aria-current="page" href="/disability/after-you-file-claim" id="edb30a2af9c762c7c61da71797887678">
+            After you file your claim
+        </a>
+        </li>
+      </ul>
+</nav>
+
+<div itemscope itemprop="mainEntity" itemtype="https://schema.org/FAQPage">
+
+  <div id="content" class="interior">
+    <main class="va-l-detail-page" lang="en">
+      <div class="usa-grid usa-grid-full">
+
+<nav data-template="navigation/sidebar_nav" aria-label="Secondary" id="va-detailpage-sidebar" data-drupal-sidebar="true" class="va-drupal-sidebarnav usa-width-one-fourth va-sidebarnav">
+    <div>
+
+        <button class="va-sidenav-btn-close va-sidebarnav-close" type="button" aria-label="Close this menu">
+            <va-icon icon="close" size="3" class="vads-u-color--gray-dark"></va-icon>
+        </button>
+
+                            <div class="vads-u-display--flex vads-u-align-items--center left-side-nav-title">
+                    
+      <va-icon icon="description" size="3" class="hub-icon vads-u-color--white vads-u-background-color--hub-disability vads-u-display--flex vads-u-align-items--center vads-u-justify-content--center vads-u-margin-right--1"></va-icon>
+    
+                    <h4>Disability benefits</h4>
+                </div>
+
+                                                
+                    <ul class="usa-accordion">
+                        <li>
+                            <button class="usa-accordion-button" aria-expanded="false" aria-controls="a1">
+                                Get benefits
+                            </button>
+                            <div id="a1" class="usa-accordion-content" aria-hidden="false">
+                                                                    <ul class="usa-sidenav-list">
+                                            <li>
+                                                <a href="/disability/eligibility" id="c9b923828da18037416d6c4c830f4448">Eligibility</a>
+                                                                                                    <ul class="usa-sidenav-sub_list">
+                                                                                                                                                                                        <li>
+                                                                    <a href="/disability/eligibility/hazardous-materials-exposure" id="bff8ac2e596378883d86973aa1f636a6">Exposure to hazardous materials</a>
+                                                                    <ul class="usa-sidenav-sub_list">
+                                                                            <li>
+                                                                                <a href="/disability/eligibility/hazardous-materials-exposure/specific-environmental-hazards" id="b448bd2ead42a0203ec166ab58caf207">Specific environmental hazards</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/eligibility/hazardous-materials-exposure/agent-orange" id="2743df0d404764e4111fd244269a9c59">Agent Orange</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/eligibility/hazardous-materials-exposure/asbestos" id="a51a35cafc0bec4a4ae599b621f7ccb9">Asbestos</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/eligibility/hazardous-materials-exposure/mustard-gas-lewisite" id="d54fa648ce869da1185ccdf4403d6f07">Mustard gas or lewisite</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/eligibility/hazardous-materials-exposure/camp-lejeune-water-contamination" id="7f4cf8822dea94f6f944efc935879ef3">Camp Lejeune water contamination</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/eligibility/hazardous-materials-exposure/ionizing-radiation" id="1c7f7ba969b0d0d8e2df95c17bad80c5">Radiation exposure</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/eligibility/hazardous-materials-exposure/project-112-shad" id="4a78b69959e408ed3e3c37aac646275f">Project 112/SHAD</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/eligibility/hazardous-materials-exposure/gulf-war-illness-southwest-asia" id="052add16cef293e1d7a9da1fe15ebad4">Gulf War Illnesses SW Asia</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/eligibility/hazardous-materials-exposure/gulf-war-illness-afghanistan" id="59999078e88ac55b6b7d3f7961d38551">Gulf War Illnesses Afghanistan</a>
+                                                                            </li>
+                                                                    </ul>
+                                                                </li>
+                                                                                                                                                                                                                                                <li>
+                                                                    <a href="/disability/eligibility/former-pows" id="dc1d74bf7c954fabab731fb284191032">Former POWs</a>
+                                                                </li>
+                                                                                                                                                                                                                                                <li>
+                                                                    <a href="/disability/eligibility/ptsd" id="886b6d51d05eba2747c3a151c9eb91e4">PTSD</a>
+                                                                </li>
+                                                                                                                                                                                                                                                <li>
+                                                                    <a href="/disability/eligibility/illnesses-within-one-year-of-discharge" id="d3f709a102417b2d5eeb918daec92772">Illnesses within 1 year after discharge</a>
+                                                                </li>
+                                                                                                                                                                                                                                                <li>
+                                                                    <a href="/disability/eligibility/special-claims" id="3707130dee3f1432e63513dc54b546f9">Special claims</a>
+                                                                    <ul class="usa-sidenav-sub_list">
+                                                                            <li>
+                                                                                <a href="/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment" id="a58e6da779641b74f9b677548ad3c357">Auto allowance and adaptive equipment</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/eligibility/special-claims/birth-defects" id="acdcd5300a4d90ac9fd7dd55186a2d64">Birth defects</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/eligibility/special-claims/clothing-allowance" id="d86051e9466208cad4ddd551d93cb068">Clothing allowance</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/eligibility/special-claims/dental-care" id="db2a4d17c159cf1630c219ef75e1cfc8">Dental care</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/eligibility/special-claims/temporary-increase-after-surgery-or-cast" id="0bda25e538116ab352772dc88be66b50">Temporary disability rating after surgery or cast</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/eligibility/special-claims/temporary-increase-for-time-in-hospital" id="67e9a9ff91f9b9f5d99cadcd364af1a6">Increase for time in hospital</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/eligibility/special-claims/temporary-rating-prestabilization" id="d0a60b5e5821236ec4e2de6ab6669b09">Prestabilization rating</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/eligibility/special-claims/1151-claims-title-38" id="8e34a14c7ad3ecc2e7d9a8c1edb7c15f">Title 38 U.S.C. 1151 claims</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/eligibility/special-claims/unemployability" id="04e163bda0ffb424bfa0276910f761e5">Individual unemployability</a>
+                                                                            </li>
+                                                                    </ul>
+                                                                </li>
+                                                                                                            </ul>
+                                            </li>
+                                            <li>
+                                                <a href="/disability/eligibility-esp" id="e3056b36553ccc188b75cb2c102c44d6">Elegibilidad</a>
+                                                                                                    <ul class="usa-sidenav-sub_list">
+                                                                                                                                                                                        <li>
+                                                                    <a href="/disability/eligibility/hazardous-materials-exposure" id="119275cbc5a9249988adf540ef4ec53a">Exposure to hazardous materials</a>
+                                                                </li>
+                                                                                                                                                                                                                                                <li>
+                                                                    <a href="/disability/eligibility/former-pows" id="08b487bff5062a148170c255d3f70f5b">Former POWs</a>
+                                                                </li>
+                                                                                                                                                                                                                                                <li>
+                                                                    <a href="/disability/eligibility/ptsd" id="1c581b4751dfa9a8966233d38b55b594">PTSD</a>
+                                                                </li>
+                                                                                                                                                                                                                                                <li>
+                                                                    <a href="/disability/eligibility/illnesses-within-one-year-of-discharge" id="b7e67b0e1cedb5cdc78f4e2730019366">Illnesses within 1 year after discharge</a>
+                                                                </li>
+                                                                                                                                                                                                                                                <li>
+                                                                    <a href="/disability/eligibility/special-claims" id="bf3d0354325ed34e5ac398a39682a40b">Special claims</a>
+                                                                </li>
+                                                                                                            </ul>
+                                            </li>
+                                            <li>
+                                                <a href="/disability/how-to-file-claim" id="7e33f49b00dea26673d8cf633658bcda">How to file a claim</a>
+                                                                                                    <ul class="usa-sidenav-sub_list">
+                                                                                                                                                                                        <li>
+                                                                    <a href="/disability/how-to-file-claim/when-to-file" id="eafc4e2b32a8bbcc98c41dc20d0346f3">When to file</a>
+                                                                    <ul class="usa-sidenav-sub_list">
+                                                                            <li>
+                                                                                <a href="/disability/how-to-file-claim/when-to-file/pre-discharge-claim" id="e2e71b11aa6ef23163b8f6db5c82adbb">Pre-discharge claim</a>
+                                                                            </li>
+                                                                    </ul>
+                                                                </li>
+                                                                                                                                                                                                                                                <li>
+                                                                    <a href="/disability/how-to-file-claim/evidence-needed" id="7dad3a7ba74ef31d54c994e7e54b2be5">Evidence needed</a>
+                                                                    <ul class="usa-sidenav-sub_list">
+                                                                            <li>
+                                                                                <a href="/disability/how-to-file-claim/evidence-needed/fully-developed-claims" id="7e05899506bdf9c7566177a85f292b3e">Fully Developed Claims program</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/how-to-file-claim/evidence-needed/standard-claims" id="608324558df706559d57af87cd4b2dd1">Standard claims</a>
+                                                                            </li>
+                                                                    </ul>
+                                                                </li>
+                                                                                                                                                                                                                                                <li>
+                                                                    <a href="/disability/how-to-file-claim/additional-forms" id="65820a86eb7187340b0f7969c31462ea">File additional forms for your disability claim</a>
+                                                                </li>
+                                                                                                            </ul>
+                                            </li>
+                                            <li>
+                                                <a href="/disability/how-to-file-claim-esp" id="a50a703c6db3e893cb8d27e81e4ead9c">C&#xF3;mo presentar una reclamaci&#xF3;n</a>
+                                                                                                    <ul class="usa-sidenav-sub_list">
+                                                                                                                                                                                        <li>
+                                                                    <a href="/disability/how-to-file-claim/when-to-file" id="7b9b54549d1860ba7a03d3cb9e401e7d">When to file</a>
+                                                                </li>
+                                                                                                                                                                                                                                                <li>
+                                                                    <a href="/disability/how-to-file-claim/evidence-needed" id="0250a5cb6999571ce489d8dd196f5739">Evidence needed</a>
+                                                                </li>
+                                                                                                                                                                                                                                                <li>
+                                                                    <a href="/disability/how-to-file-claim/additional-forms" id="f27b70776d41d59fc5e6532bed2eb619">File additional forms for your disability claim</a>
+                                                                </li>
+                                                                                                            </ul>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.va.gov/disability/file-disability-claim-form-21-526ez/" id="5efc4da2c01d4fca8b452ff140e1fe03">File a claim online</a>
+                                                                                            </li>
+                                            <li class="active-level">
+                                                <a class="usa-current" href="/disability/after-you-file-claim" id="30bb05f33df0e5cda16f1f10056971a9">After you file your claim</a>
+                                                                                            </li>
+                                            <li class="active-level">
+                                                <a href="/disability/after-you-file-claim-esp" id="a620874969af6e89faa5fada5d55e4d7">Despu&#xE9;s de presentar su reclamaci&#xF3;n</a>
+                                                                                            </li>
+                                            <li>
+                                                <a href="/disability/dependency-indemnity-compensation" id="c8a4d52a85e2959576bf0849eaccfc70">Survivor and dependent compensation (DIC)</a>
+                                                                                            </li>
+                                            <li>
+                                                <a href="/disability/dependency-indemnity-compensation-esp" id="e64aedea717ccf5ba505c98e4d1d8238">Compensaci&#xF3;n para sobrevivientes y descendientes (DIC)</a>
+                                                                                            </li>
+                                    </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <button class="usa-accordion-button" aria-expanded="false" aria-controls="a2">
+                                Manage benefits
+                            </button>
+                            <div id="a2" class="usa-accordion-content" aria-hidden="false">
+                                                                    <ul class="usa-sidenav-list">
+                                            <li>
+                                                <a href="/claim-or-appeal-status" id="6895e86c1acc4767f5bae0745b8bd787">Check claim, decision review, or appeal status</a>
+                                                                                            </li>
+                                            <li>
+                                                <a href="/disability/view-disability-rating" id="9005ed6df6271b5af1d51883293e511b">View your disability ratings</a>
+                                                                                            </li>
+                                            <li>
+                                                <a href="https://www.va.gov/disability/file-disability-claim-form-21-526ez/" id="1edfeac833465f1cf94852fdd7a93ab5">File for increased disability</a>
+                                                                                            </li>
+                                            <li>
+                                                <a href="/decision-reviews" id="8ee966b331af71e6911753bf3c1bf61a">Request a decision review</a>
+                                                                                            </li>
+                                            <li>
+                                                <a href="/view-change-dependents" id="9900e863c8721bc53046ea8e918f5463">Add or remove a dependent</a>
+                                                                                            </li>
+                                            <li>
+                                                <a href="/disability/upload-supporting-evidence" id="f362a46aad702dc2a517843671cf6f67">Upload evidence to support your disability claim</a>
+                                                                                            </li>
+                                            <li>
+                                                <a href="/change-address" id="73f2d69042aa315ede1dbbad205b84c6">Change your address</a>
+                                                                                            </li>
+                                            <li>
+                                                <a href="/disability/how-to-file-claim/additional-forms" id="e1770d9603925f72eb0708247c81386d">File additional forms for your disability claim</a>
+                                                                                            </li>
+                                            <li>
+                                                <a href="/change-direct-deposit" id="15183f2da96ae63b82b3e66ffa0326fc">Change your VA direct deposit information</a>
+                                                                                            </li>
+                                            <li>
+                                                <a href="/health-care/get-medical-records" id="5978d184a43d1415b6ae179f29321b44">Get your VA medical records</a>
+                                                                                            </li>
+                                            <li>
+                                                <a href="/records/download-va-letters" id="472fff52996d9ab38cc65d8550fc5daf">Download VA benefit letters</a>
+                                                                                            </li>
+                                            <li>
+                                                <a href="/va-payment-history" id="8a03d43e71709b6f1ff23163ee7a692e">View disability payment history</a>
+                                                                                            </li>
+                                    </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <button class="usa-accordion-button" aria-expanded="false" aria-controls="a3">
+                                More resources
+                            </button>
+                            <div id="a3" class="usa-accordion-content" aria-hidden="false">
+                                                                    <ul class="usa-sidenav-list">
+                                            <li>
+                                                <a href="/disability/compensation-rates" id="840085f610e2eb8de88ada57565df5da">Disability compensation rates</a>
+                                                                                                    <ul class="usa-sidenav-sub_list">
+                                                                                                                                                                                        <li>
+                                                                    <a href="/disability/compensation-rates/veteran-rates" id="dea217b3aae60f2f18bdfd8ebfde982d">Veterans disability compensation rates</a>
+                                                                    <ul class="usa-sidenav-sub_list">
+                                                                            <li>
+                                                                                <a href="/disability/compensation-rates/veteran-rates/past-rates-2023" id="b790a787cfb7cbc35669f697ba2094f7">Past rates: 2023</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/compensation-rates/veteran-rates/past-rates-2022" id="1189ffcb9446dbfd95dc6fa854713483">Past rates: 2022</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/compensation-rates/veteran-rates/past-rates-2021" id="963b5f52c2ed7bd00fba31c8a1363331">Past rates: 2021</a>
+                                                                            </li>
+                                                                    </ul>
+                                                                </li>
+                                                                                                                                                                                                                                                <li>
+                                                                    <a href="/disability/compensation-rates/special-monthly-compensation-rates" id="149a935a2d96cf023fac1ceab5c8b3c9">Special monthly compensation rates</a>
+                                                                    <ul class="usa-sidenav-sub_list">
+                                                                            <li>
+                                                                                <a href="/disability/compensation-rates/special-monthly-compensation-rates/past-rates-2023" id="938b2a4ad4840ac7a9807fc96b4fb475">Past rates: 2023</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/compensation-rates/special-monthly-compensation-rates/past-rates-2022" id="71e8dcc9b13f6145a78ca784f2efca2c">Past rates: 2022</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/compensation-rates/special-monthly-compensation-rates/past-rates-2021" id="e2cf2a6e0bb7d8704615a29b9482c9a3">Past rates: 2021</a>
+                                                                            </li>
+                                                                    </ul>
+                                                                </li>
+                                                                                                                                                                                                                                                <li>
+                                                                    <a href="/disability/compensation-rates/special-benefit-allowance-rates" id="1439bb29913718b8ef78e71ccada1a53">Special benefit allowances rates</a>
+                                                                    <ul class="usa-sidenav-sub_list">
+                                                                            <li>
+                                                                                <a href="/disability/compensation-rates/special-benefit-allowance-rates/past-rates-2023" id="b514a98098dcf1945c0821c9b45b1a95">Past rates: 2023</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/compensation-rates/special-benefit-allowance-rates/past-rates-2022" id="57e279efa7c9ced11c47f4014de6c4c1">Past rates: 2022</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/compensation-rates/special-benefit-allowance-rates/past-rates-2021" id="53e066726cad8433f8247c1cc379ec5b">Past rates: 2021</a>
+                                                                            </li>
+                                                                    </ul>
+                                                                </li>
+                                                                                                                                                                                                                                                <li>
+                                                                    <a href="/disability/compensation-rates/birth-defect-rates" id="3c4fc4599c9505bc22cf10b0f8d09763">Birth defect compensation rates</a>
+                                                                    <ul class="usa-sidenav-sub_list">
+                                                                            <li>
+                                                                                <a href="/disability/compensation-rates/birth-defect-rates/past-rates-2023" id="51cd0413590649ba6adfb8b97bf1a257">Past rates: 2023</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/compensation-rates/birth-defect-rates/past-rates-2022" id="8dd3daf28c5f0da90f311092c8bbf860">Past rates: 2022</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="/disability/compensation-rates/birth-defect-rates/past-rates-2021" id="a7e3d233f2dc2b301258e7e63d000e8d">Past rates: 2021</a>
+                                                                            </li>
+                                                                    </ul>
+                                                                </li>
+                                                                                                            </ul>
+                                            </li>
+                                            <li>
+                                                <a href="/disability/survivor-dic-rates" id="957fe4b2e10599f9d4350c50691616ba">Survivor DIC rates</a>
+                                                                                                    <ul class="usa-sidenav-sub_list">
+                                                                                                                                                                                        <li>
+                                                                    <a href="/disability/survivor-dic-rates/past-rates-2023" id="7fdb51ffba485e1235f93fb53929ff43">Past rates: 2023</a>
+                                                                </li>
+                                                                                                                                                                                                                                                <li>
+                                                                    <a href="/disability/survivor-dic-rates/past-rates-2022" id="efbf017bb6c7f70724aeedd9750d2784">Past rates: 2022</a>
+                                                                </li>
+                                                                                                                                                                                                                                                <li>
+                                                                    <a href="/disability/survivor-dic-rates/past-rates-2021" id="32fd3f36acb961f156bd0ad716f5c68c">Past rates: 2021</a>
+                                                                </li>
+                                                                                                            </ul>
+                                            </li>
+                                            <li>
+                                                <a href="/disability/parent-dic-rates" id="be9413eb579709b75cd3d5fcd4d3e3b6">Parents DIC rates</a>
+                                                                                                    <ul class="usa-sidenav-sub_list">
+                                                                                                                                                                                        <li>
+                                                                    <a href="/disability/parent-dic-rates/past-rates-2023" id="d931410d188cb22eae72c9f4125fa9a9">Past rates: 2023</a>
+                                                                </li>
+                                                                                                                                                                                                                                                <li>
+                                                                    <a href="/disability/parent-dic-rates/past-rates-2022" id="8819afcff6f61ae2b2900d12fb90831f">Past rates: 2022</a>
+                                                                </li>
+                                                                                                                                                                                                                                                <li>
+                                                                    <a href="/disability/parent-dic-rates/past-rates-2021" id="1bddfc7992a7da1cf9b9eff7a7ce78a1">Past rates: 2021</a>
+                                                                </li>
+                                                                                                            </ul>
+                                            </li>
+                                            <li>
+                                                <a href="/disability/about-disability-ratings" id="da533c6ce2c7c0d8560d1c27724ad2a8">About disability ratings</a>
+                                                                                                    <ul class="usa-sidenav-sub_list">
+                                                                                                                                                                                        <li>
+                                                                    <a href="/disability/about-disability-ratings/after-you-get-a-rating" id="6d72e24bda67e9263b13156c8af61bbd">After you get a rating</a>
+                                                                </li>
+                                                                                                            </ul>
+                                            </li>
+                                            <li>
+                                                <a href="/disability/get-help-filing-claim" id="56170be6bf6990c13fce0463c52413ad">Get help from an accredited representative</a>
+                                                                                            </li>
+                                            <li>
+                                                <a href="/disability/va-claim-exam" id="97548606888a7d70204a76ae731ab982">VA claim exam (C&amp;P exam)</a>
+                                                                                            </li>
+                                            <li>
+                                                <a href="/disability/effective-date" id="e118337bfba260ed9784817c57ff4855">Effective dates</a>
+                                                                                            </li>
+                                    </ul>
+                            </div>
+                        </li>
+                </ul>
+        
+
+    </div>
+</nav>
+
+      <div class="usa-width-three-fourths">
+
+          
+<div class="va-btn-sidebarnav-trigger" id="sidebar-nav-trigger">
+  <!-- The button background is to hide any content that is behind the trigger -->
+  <div class="button-background"></div>
+  <div class="button-wrapper">
+    <button aria-controls="va-detailpage-sidebar">
+      <strong>In this section</strong>
+      <va-icon icon="menu" size="3" class="vads-u-color--link-default"></va-icon>
+    </button>
+  </div>
+</div>
+<div class="trigger-placeholder"></div>
+
+<script nonce="cAe4I2Abrk70icevv4o2DLwSJRme8tnd" type="text/javascript">
+  var mobileMediaQuery = window.matchMedia('(max-width: 767px)')
+  var navTrigger = document.getElementsByClassName('va-btn-sidebarnav-trigger')[0]
+  var buttonWrapper = document.querySelector(
+    '.va-btn-sidebarnav-trigger .button-wrapper'
+  )
+  var buttonBackground = document.querySelector(
+    '.va-btn-sidebarnav-trigger .button-background'
+  )
+  var navTriggerPlaceholder = document.querySelector('.trigger-placeholder')
+  var navTriggerPosition
+
+  // Helper to get the height of the nav button, with or without the bottom
+  // padding. This is used to set the height of the button's placeholder and the
+  // height of the white button background
+  function getButtonHeight(withBottomPadding) {
+    // If the mobile nav button is hidden, just return 0
+    if (!mobileMediaQuery.matches) {
+      return 0
+    }
+
+    const style = window.getComputedStyle(buttonWrapper)
+    const { height, paddingBottom } = style
+
+    if (withBottomPadding) {
+      return parseFloat(height)
+    }
+
+    return parseFloat(height) - parseFloat(paddingBottom)
+  }
+
+  function setElementHeights() {
+    // In some edge cases when switching from desktop to mobile viewport (such
+    // as when you open the web inspector), getButtonHeight() was returning 0,
+    // likely due to `mobileMediaQuery.matches` failing. This simple hack
+    // ensures that the height is not computed until the next run of the event
+    // loop
+    setTimeout(() => {
+      navTriggerPlaceholder.style.height = getButtonHeight(true) + 'px'
+      buttonBackground.style.height = getButtonHeight(false) + 'px'
+    }, 0)
+  }
+
+  function setMenuTriggerPosition() {
+    navTriggerPosition = navTriggerPlaceholder.offsetTop
+  }
+
+  function pinTrigger() {
+    if (mobileMediaQuery.matches) {
+      if (navTriggerPosition < window.pageYOffset) {
+        navTrigger.classList.add('fixed-trigger')
+      } else {
+        navTrigger.classList.remove('fixed-trigger')
+      }
+    }
+  }
+
+  // As the document loads, make sure the height and trigger positions are
+  // updated
+  document.onreadystatechange = () => {
+    setElementHeights()
+    setMenuTriggerPosition()
+  }
+
+  window.addEventListener(
+    'resize',
+    () => {
+      // The height of the trigger can change at extreme browser widths
+      setElementHeights()
+      // The trigger can be pushed up/down as elements above it change height as
+      // the browser width changes
+      setMenuTriggerPosition()
+      // We might need to pin/unpin the trigger if we transitions from/to mobile
+      // browser widths
+      pinTrigger()
+    },
+    false
+  )
+
+  window.addEventListener(
+    'scroll',
+    () => {
+      // We are resetting the trigger button's position on scroll just in case any
+      // elements have been removed from above the menu trigger, such as a
+      // dismissible alert.
+      setMenuTriggerPosition()
+      // Primarily scrolling will pin/unpin the trigger from the top of the
+      // viewport
+      pinTrigger()
+    },
+    false
+  )
+</script>
+        
+        <article class="usa-content vads-u-padding-bottom--0">
+          <div data-widget-type="i18-select"></div>
+          <h1>The VA claim process after you file your claim</h1>
+          <div class="va-introtext">
+            <p>Learn about what happens after you file your claim. And find out the average number of days it takes to process a VA disability claim.</p>
+
+          </div>
+                      
+
+          
+                                                      
+
+<script type="application/ld+json" nonce="cAe4I2Abrk70icevv4o2DLwSJRme8tnd">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take VA to make a decision?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": ""
+          }
+        }          ]
+  }
+</script>
+
+<div data-template="paragraphs/q_a_section" data-entity-id="5916">
+                          <div data-template="paragraphs/q_a" data-entity-id="5915" data-analytics-faq-section data-analytics-faq-text="How long does it take VA to make a decision?">
+  <div id="5915">
+    <div class="vads-u-display--flex">
+      <h2 id="how-long-does-it-take-va-to-ma">
+        How long does it take VA to make a decision?
+      </h2>
+    </div>
+
+    <div data-entity-id="5915">
+                
+
+<div data-template="paragraphs/number_callout" data-entity-id="5917">
+  <va-card background class="vads-u-margin-bottom--3">
+    <span class="number vads-u-font-family--serif 40px vads-u-font-size--h2 vads-u-font-weight--bold vads-u-line-height--1 vads-u-padding-bottom--2 vads-u-border-bottom--1px vads-u-border-color--gray-light vads-u-display--inline-block">
+      147.2 days
+    </span>
+    <span class="description vads-u-font-size--base vads-u-font-weight--normal vads-u-padding-top--0p5 vads-u-display--block">
+      <p>Average number of days to complete disability-related claims in May 2024</p>
+    </span>
+  </va-card>
+</div>          </div>
+  </div>
+</div>
+        </div>
+                                                                            
+
+<div data-template="paragraphs/wysiwyg" data-entity-id="5918" class="processed-content">
+  <div itemprop="text">
+      <h3 id="the-amount-of-time-it-takes-to"><strong>The time it takes to review your claim depends on these factors:</strong></h3><ul><li>The type of claim you filed</li><li>How many injuries or disabilities you claimed and how complex they are</li><li>How long it takes us to collect the evidence we need&#xA0;to decide your claim</li></ul>
+  </div>
+</div>
+                                                                            
+
+<script type="application/ld+json" nonce="cAe4I2Abrk70icevv4o2DLwSJRme8tnd">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What should I do while I wait?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": ""
+          }
+        },              {
+          "@type": "Question",
+          "name": "What happens after I file a VA disability claim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": ""
+          }
+        },              {
+          "@type": "Question",
+          "name": "What should I do if I disagree with my VA disability claim decision?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": ""
+          }
+        }          ]
+  }
+</script>
+
+<div data-template="paragraphs/q_a_section" data-entity-id="5920">
+                          <div data-template="paragraphs/q_a" data-entity-id="5919" data-analytics-faq-section data-analytics-faq-text="What should I do while I wait?">
+  <div id="5919">
+    <div class="vads-u-display--flex">
+      <h2 id="what-should-i-do-while-i-wait">
+        What should I do while I wait?
+      </h2>
+    </div>
+
+    <div data-entity-id="5919">
+                
+
+<div data-template="paragraphs/wysiwyg" data-entity-id="5921" class="processed-content">
+  <div itemprop="text">
+      <p>You don&#x2019;t need to do anything unless we send you a letter asking for more information. If we schedule any exams for you, be sure not to miss them. You can check the status of your claim online. The timeline listed there may vary based on how complex your claim is.</p>
+
+<p><a class="vads-c-action-link--green" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="2ba48b5f-a92c-4775-9cfd-9530d1c87347" href="/claim-or-appeal-status" title="Check your VA claim, decision review, or appeal status">Check your VA claim status </a></p>
+  </div>
+</div>
+          </div>
+  </div>
+</div>
+                      <div data-template="paragraphs/q_a" data-entity-id="5922" data-analytics-faq-section data-analytics-faq-text="What happens after I file a VA disability claim?">
+  <div id="5922">
+    <div class="vads-u-display--flex">
+      <h2 id="what-happens-after-i-file-a-va">
+        What happens after I file a VA disability claim?
+      </h2>
+    </div>
+
+    <div data-entity-id="5922">
+                
+
+<div data-template="paragraphs/process" data-entity-id="5923" class="process schemaform-process">
+  <va-process-list>
+        <va-process-list-item><h3 id="claim-received">Claim received</h3>
+
+<p>We&#x2019;ll let you know when we receive your VA disability claim.</p>
+
+<ul>
+	<li><strong>If you file your claim online,</strong> you&#x2019;ll get an on-screen message from us after you submit the form.</li>
+	<li><strong>If you mail your application,</strong> we&#x2019;ll send you a letter to let you know we have your claim. You should get this letter about 1 week, plus mailing time, after we receive your claim.</li>
+</ul></va-process-list-item>
+        <va-process-list-item><h3 id="initial-review">Initial review</h3>
+
+<p>We&#x2019;ll review your claim.</p></va-process-list-item>
+        <va-process-list-item><h3 id="evidence-gathering-review-and-">Evidence gathering, review, and decision</h3>
+
+<p>During this step, we&#x2019;ll do 3 things:</p>
+
+<ul>
+	<li>Ask for evidence from you, health care providers, government&#xA0;agencies, or others</li>
+	<li>Review the evidence</li>
+	<li>Make a decision</li>
+</ul>
+
+<p>If we need more evidence during the review, your claim may return to this step more than once.</p></va-process-list-item>
+        <va-process-list-item><h3 id="preparation-for-notification">Preparation for notification</h3>
+
+<p>We&#x2019;ll get your claim decision packet ready to mail.</p></va-process-list-item>
+        <va-process-list-item><h3 id="claim-complete">Claim complete</h3>
+
+<p>We&#x2019;ll send you a packet by U.S. mail that includes details of the decision on your claim. Please allow 7 to 10 business days for your packet to arrive before contacting a VA call center.</p></va-process-list-item>
+  </va-process-list>
+</div>          </div>
+  </div>
+</div>
+                      <div data-template="paragraphs/q_a" data-entity-id="5924" data-analytics-faq-section data-analytics-faq-text="What should I do if I disagree with my VA disability claim decision?">
+  <div id="5924">
+    <div class="vads-u-display--flex">
+      <h2 id="what-should-i-do-if-i-disagree">
+        What should I do if I disagree with my VA disability claim decision?
+      </h2>
+    </div>
+
+    <div data-entity-id="5924">
+                
+
+<div data-template="paragraphs/wysiwyg" data-entity-id="5925" class="processed-content">
+  <div itemprop="text">
+      <p>If you disagree with a claim decision that you received<strong> on or after February 19, 2019,</strong> you can ask us to review the decision. You have 3 decision review options to choose from.&#xA0;</p>
+
+<p><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="0ba73178-25c7-449b-986d-c35a7ea8060a" href="/decision-reviews" title="VA decision reviews and appeals">Learn about your decision review options</a></p>
+  </div>
+</div>
+          </div>
+  </div>
+</div>
+        </div>
+                                                                            
+
+<div data-template="paragraphs/wysiwyg" data-entity-id="8321" class="processed-content">
+  <div itemprop="text">
+      <h2 id="more-information-about-disabil">More information about disability ratings and payments</h2>
+  </div>
+</div>
+                                                                            
+    <section data-template="paragraphs/list_of_link_teasers" data-entity-id="5926" class="field_content_block">
+  <ul class="va-nav-linkslist-list">
+          
+                        
+
+<li data-template="paragraphs/linkTeaser" data-entity-id="5927" data-links-list-header="Effective date of disability" data-links-list-section-header>
+
+            <h3 class="va-nav-linkslist-title vads-u-font-size--h4" id>
+            <va-link href="/disability/effective-date" text="Effective date of disability">
+        </va-link></h3>
+      <p class="va-nav-linkslist-description">Find out when you&#x2019;ll start getting your disability payments.</p>
+</li>
+          
+                        
+
+<li data-template="paragraphs/linkTeaser" data-entity-id="5928" data-links-list-header="What to expect after you get a disability rating" data-links-list-section-header>
+
+            <h3 class="va-nav-linkslist-title vads-u-font-size--h4" id="-1">
+            <va-link href="/disability/about-disability-ratings/after-you-get-a-rating" text="What to expect after you get a disability rating">
+        </va-link></h3>
+      <p class="va-nav-linkslist-description">Find out what happens after you get your decision notice with your rating.</p>
+</li>
+      </ul>
+</section>
+                                                      <va-back-to-top></va-back-to-top>
+        <!-- Last updated & feedback button-->
+
+
+
+
+<div class="last-updated usa-content vads-u-padding-x--1 large-screen:vads-u-padding-x--0">
+  <div class="small-screen:vads-u-display--flex above-footer-elements-container">
+    <div class="vads-u-flex--auto">
+      <span class="vads-u-text-align--justify">
+  <p>Last updated: <time datetime="2024-06-11">June 11, 2024</time></p>            
+      </span> 
+    </div>
+    <div class="vads-u-flex--1 vads-u-text-align--right">
+      <span class="vads-u-text-align--right">
+          <button type="button" class="feedback-button usa-button" id="mdFormButton" aria-label="give feedback">
+Feedback
+</button>
+              </span> 
+    </div>
+  </div>
+</div>
+                  </article>
+      </div>
+    </div></main>
+  </div>
+</div>
+
+
+<footer class="footer">
+  <div id="footerNav" data-minimal-footer="false"></div>
+</footer>
+<div id="logout-modal-root"></div>
+<!--
+âTo care for him who shall have borne the battle and for his widow, and his orphan.â
+- Abraham Lincoln
+-->
+<script nonce="cAe4I2Abrk70icevv4o2DLwSJRme8tnd" type="text/javascript">
+(function() {
+  var module = {};
+function mountWidgets(widgets, slowLoadingThreshold) {
+  [].slice.call(widgets).forEach(function(widget) {
+    var timeout = widget.getAttribute('data-widget-timeout');
+    if (timeout) {
+      timeout = parseInt(timeout, 10);
+    }
+    timeout = (timeout || 0) * 1000;
+
+    if (timeout > slowLoadingThreshold) {
+      setTimeout(function() {
+        var replacedWithWidget = !widget.querySelector(
+          '.static-widget-content'
+        );
+        var slowMessage = widget.querySelector(
+          '.loading-indicator-message--slow'
+        );
+        var regularMessage = widget.querySelector(
+          '.loading-indicator-message--normal'
+        );
+
+        if (!replacedWithWidget && regularMessage) {
+          regularMessage.setAttribute('aria-hidden', 'true');
+          regularMessage.classList.add('vads-u-display--none');
+        }
+
+        if (!replacedWithWidget && slowMessage) {
+          slowMessage.setAttribute('aria-hidden', 'false');
+          slowMessage.classList.remove('vads-u-display--none');
+        }
+      }, slowLoadingThreshold);
+    }
+
+    if (timeout > 0) {
+      setTimeout(function() {
+        var replacedWithWidget = !widget.querySelector(
+          '.static-widget-content'
+        );
+        var errorMessage = widget.querySelector('.sip-application-error');
+        var loadingMessage = widget.querySelector(
+          '.loading-indicator-container'
+        );
+
+        if (!replacedWithWidget && loadingMessage) {
+          loadingMessage.parentNode.removeChild(loadingMessage);
+        }
+
+        if (!replacedWithWidget && errorMessage) {
+          errorMessage.setAttribute('aria-hidden', 'false');
+          errorMessage.classList.remove('vads-u-display--none');
+        }
+      }, timeout);
+    }
+  });
+}
+
+if (module) {
+  module.exports = mountWidgets;
+}
+  mountWidgets(document.querySelectorAll('[data-widget-type]'), 6000);
+})();
+</script>
+
+
+
+
+
+     <script nonce="cAe4I2Abrk70icevv4o2DLwSJRme8tnd">
+      (function() {
+        document.getElementById('2443c085a7e891011c53270a60f6a9bd').addEventListener('click', function(event) { focusContent(event) });
+document.getElementById('7254575f0d2ce7cc45c0b29612b5cd00').addEventListener('click', function(event) { recordEvent({ event: 'nav-crisis-header' }) });
+document.getElementById('03e821a77d7c52ffcbb595be9c283c3d').addEventListener('click', function(event) { recordEvent({ event: 'nav-jumplink-click' }); });
+document.getElementById('76b96dd8df44af5d12e0a42faee15cc7').addEventListener('click', function(event) { recordEvent({ event: 'nav-breadcrumb', 'nav-breadcrumb-section': 'home' }); });
+document.getElementById('905578a2c322967ddbb756a6ebef1108').addEventListener('click', function(event) { recordEvent({ 'event': 'nav-breadcrumb', 'breadcrumb-click-label': 'Disability benefits', 'breadcrumb-click-level': '2', 'breadcrumb-total-levels': '4' }); });
+document.getElementById('edb30a2af9c762c7c61da71797887678').addEventListener('click', function(event) { recordEvent({ 'event': 'nav-breadcrumb', 'breadcrumb-click-label': 'After you file your claim', 'breadcrumb-click-level': '4', 'breadcrumb-total-levels': '4' }); });
+document.getElementById('c9b923828da18037416d6c4c830f4448').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('bff8ac2e596378883d86973aa1f636a6').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('b448bd2ead42a0203ec166ab58caf207').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('2743df0d404764e4111fd244269a9c59').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('a51a35cafc0bec4a4ae599b621f7ccb9').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('d54fa648ce869da1185ccdf4403d6f07').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('7f4cf8822dea94f6f944efc935879ef3').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('1c7f7ba969b0d0d8e2df95c17bad80c5').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('4a78b69959e408ed3e3c37aac646275f').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('052add16cef293e1d7a9da1fe15ebad4').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('59999078e88ac55b6b7d3f7961d38551').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('dc1d74bf7c954fabab731fb284191032').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('886b6d51d05eba2747c3a151c9eb91e4').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('d3f709a102417b2d5eeb918daec92772').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('3707130dee3f1432e63513dc54b546f9').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('a58e6da779641b74f9b677548ad3c357').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('acdcd5300a4d90ac9fd7dd55186a2d64').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('d86051e9466208cad4ddd551d93cb068').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('db2a4d17c159cf1630c219ef75e1cfc8').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('0bda25e538116ab352772dc88be66b50').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('67e9a9ff91f9b9f5d99cadcd364af1a6').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('d0a60b5e5821236ec4e2de6ab6669b09').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('8e34a14c7ad3ecc2e7d9a8c1edb7c15f').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('04e163bda0ffb424bfa0276910f761e5').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('e3056b36553ccc188b75cb2c102c44d6').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('119275cbc5a9249988adf540ef4ec53a').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('08b487bff5062a148170c255d3f70f5b').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('1c581b4751dfa9a8966233d38b55b594').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('b7e67b0e1cedb5cdc78f4e2730019366').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('bf3d0354325ed34e5ac398a39682a40b').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('7e33f49b00dea26673d8cf633658bcda').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('eafc4e2b32a8bbcc98c41dc20d0346f3').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('e2e71b11aa6ef23163b8f6db5c82adbb').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('7dad3a7ba74ef31d54c994e7e54b2be5').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('7e05899506bdf9c7566177a85f292b3e').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('608324558df706559d57af87cd4b2dd1').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('65820a86eb7187340b0f7969c31462ea').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('a50a703c6db3e893cb8d27e81e4ead9c').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('7b9b54549d1860ba7a03d3cb9e401e7d').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('0250a5cb6999571ce489d8dd196f5739').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('f27b70776d41d59fc5e6532bed2eb619').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('5efc4da2c01d4fca8b452ff140e1fe03').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('30bb05f33df0e5cda16f1f10056971a9').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('a620874969af6e89faa5fada5d55e4d7').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('c8a4d52a85e2959576bf0849eaccfc70').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('e64aedea717ccf5ba505c98e4d1d8238').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('6895e86c1acc4767f5bae0745b8bd787').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('9005ed6df6271b5af1d51883293e511b').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('1edfeac833465f1cf94852fdd7a93ab5').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('8ee966b331af71e6911753bf3c1bf61a').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('9900e863c8721bc53046ea8e918f5463').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('f362a46aad702dc2a517843671cf6f67').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('73f2d69042aa315ede1dbbad205b84c6').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('e1770d9603925f72eb0708247c81386d').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('15183f2da96ae63b82b3e66ffa0326fc').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('5978d184a43d1415b6ae179f29321b44').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('472fff52996d9ab38cc65d8550fc5daf').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('8a03d43e71709b6f1ff23163ee7a692e').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('840085f610e2eb8de88ada57565df5da').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('dea217b3aae60f2f18bdfd8ebfde982d').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('b790a787cfb7cbc35669f697ba2094f7').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('1189ffcb9446dbfd95dc6fa854713483').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('963b5f52c2ed7bd00fba31c8a1363331').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('149a935a2d96cf023fac1ceab5c8b3c9').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('938b2a4ad4840ac7a9807fc96b4fb475').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('71e8dcc9b13f6145a78ca784f2efca2c').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('e2cf2a6e0bb7d8704615a29b9482c9a3').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('1439bb29913718b8ef78e71ccada1a53').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('b514a98098dcf1945c0821c9b45b1a95').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('57e279efa7c9ced11c47f4014de6c4c1').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('53e066726cad8433f8247c1cc379ec5b').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('3c4fc4599c9505bc22cf10b0f8d09763').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('51cd0413590649ba6adfb8b97bf1a257').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('8dd3daf28c5f0da90f311092c8bbf860').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('a7e3d233f2dc2b301258e7e63d000e8d').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('957fe4b2e10599f9d4350c50691616ba').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('7fdb51ffba485e1235f93fb53929ff43').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('efbf017bb6c7f70724aeedd9750d2784').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('32fd3f36acb961f156bd0ad716f5c68c').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('be9413eb579709b75cd3d5fcd4d3e3b6').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('d931410d188cb22eae72c9f4125fa9a9').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('8819afcff6f61ae2b2900d12fb90831f').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('1bddfc7992a7da1cf9b9eff7a7ce78a1').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('da533c6ce2c7c0d8560d1c27724ad2a8').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('6d72e24bda67e9263b13156c8af61bbd').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('56170be6bf6990c13fce0463c52413ad').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('97548606888a7d70204a76ae731ab982').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('e118337bfba260ed9784817c57ff4855').addEventListener('click', function(event) { recordEvent({ event: 'nav-sidenav' }); });
+document.getElementById('mdFormButton').addEventListener('click', function(event) { KAMPYLE_ONSITE_SDK.showForm('17') });
+      })();
+     </script></body></html>
