@@ -131,6 +131,6 @@ RAG LLM with Reranking Answer:
 Output: "The time it takes to review a claim for disability after it has been filed is affected by the type of claim filed, the number and complexity of injuries or disabilities claimed, and the time it takes to collect the necessary evidence to decide the claim."
 Analysis: This response is similar to the RAG LLM answer but slightly more polished in phrasing. It effectively captures the key factors.
 
-Overall Analysis
+## Overall Analysis
 
 The RAG LLM with reranking generally provides the most accurate and comprehensive answers, closely adhering to the provided content. The Basic LLM sometimes introduces inaccuracies or additional information not present in the context, while the standard RAG LLM improves accuracy but may lack completeness. Reranking enhances the quality of the answers by refining the relevance and detail of the generated responses.
