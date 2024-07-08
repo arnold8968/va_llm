@@ -23,7 +23,7 @@ def similarity_search(query, k=5):
     return results
 
 model_id = "meta-llama/Meta-Llama-Guard-2-8B"
-device = 'cpu'  # Use 'cuda' for GPU if available
+device = "cuda" if torch.cuda.is_available() else "cpu"
 
 tokenizer = AutoTokenizer.from_pretrained(model_id)
 model = AutoModelForCausalLM.from_pretrained(model_id, torch_dtype=torch.float32).to(device)
