@@ -2,9 +2,19 @@
 
 ## Project Description
 
-This project aims to build a conversational knowledge retrieval system focused on VA disability benefits. The system leverages Large Language Models to provide accurate and detailed answers to questions related to VA disability claims and benefits. 
+This project aims to build a conversational knowledge retrieval system focused on VA disability benefits. Leveraging Large Language Models, the system provides accurate and detailed answers to questions related to VA disability claims and benefits.
 
-The knowledge base consists of 21 articles sourced from the VA website. The models used include LLaMA 3, RAG with LLaMA3, and RAG with reranking. The project demonstrates expertise in LLMs, LangChain, prompt engineering, and fine-tuning using the QLoRA algorithm.
+The knowledge base consists of 21 articles sourced from the VA website. The models used include LLaMA 3, RAG with LLaMA3, and RAG with reranking. This project showcases expertise in LLMs, LangChain, prompt engineering, and fine-tuning using the QLoRA algorithm.
+
+To check the output of the LLM, refer to:
+ - RAG_LLM.ipynb file
+ - the dataset at ./dataset/qa_va_content_rag.csv
+ - run the main.py API with the following example:
+    - curl -X POST "http://127.0.0.1:8000/generate-answer" -H "Content-Type: application/json" -d '{"question": "What is the average number of days it takes for VA to complete disability-related claims in May 2024?"}'
+
+
+
+The computing environment is in GCP vertex AI workbench. 
 
 
 Example:
