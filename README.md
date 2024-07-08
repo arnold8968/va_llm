@@ -140,12 +140,5 @@ The RAG LLM with reranking generally provides the most accurate and comprehensiv
 
 
 # Future steps to improve the performance
-Enhance Embedding and Retrieval
 
-Improve Vector Database Performance
-
-Apply knowledge graph LLM
-
-Fine-Tune on Domain-Specific Data
-
-Enhanced RAG and Reranking. Dynamic Context Window, Advanced Reranking Models
+We can improve the performance through several methods. Enhancing the embedding and retrieval processes will ensure more accurate and efficient data handling. Optimizing the vector database performance will allow for faster and more reliable similarity searches. Integrating a knowledge graph LLM will help better understand and contextualize the data. Tailoring the models to our specific needs by fine-tuning on domain-specific data will enhance their relevance and accuracy. Lastly, implementing dynamic context windows and advanced reranking models will further improve the relevance and accuracy of the responses.
