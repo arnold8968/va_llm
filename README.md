@@ -2,8 +2,10 @@
 
 ## Project Description
 
-This project demonstrates the creation of a conversational knowledge retrieval system using the domain knowledge from the VA disability benefits website. The system leverages the following 21 articles from the VA website to provide accurate answers to user queries:
-This project aims to create a conversational knowledge retrieval system using domain knowledge from the VA disability benefits website. The system uses advanced techniques in large language models (LLMs), LangChain, and prompt engineering to provide accurate answers to user queries based on the content from selected VA articles.
+This project aims to build a conversational knowledge retrieval system focused on VA disability benefits. The system leverages Large Language Models to provide accurate and detailed answers to questions related to VA disability claims and benefits. 
+
+The knowledge base consists of 21 articles sourced from the VA website. The models used include LLaMA 3, RAG with LLaMA3, and RAG with reranking. The project demonstrates expertise in LLMs, LangChain, prompt engineering, and fine-tuning using the QLoRA algorithm.
+
 
 Example:
 - https://www.va.gov/disability/after-you-file-claim/
@@ -12,28 +14,28 @@ Example:
 - https://www.va.gov/claim-or-appeal-status/
 
 
-
-The goal is to demonstrate proficiency in using LLMs, LangChain, prompt engineering, and related technologies to build a successful LLM application.
-
 ## Folder Structure
 
 ### 1. `prepare_data.ipynb`
+ - Analyzes the VA website and saves the content in HTML format.
+ - Structures the data in a dataframe for vector database preparation.
+ - Generates questions for retrieval evaluation using the ChatGPT.
+
 The project started with scraping the content from 21 selected VA articles. The content was saved in HTML format, focusing on the paragraphs/q_a_section structure, and stored in a dataframe to prepare for vector database creation.
 
-- Analyzes the VA website and saves the content in HTML format.
-- The web structure follows `paragraphs/q_a_section`.
-- Data is saved in a dataframe with layout structure, preparing for vector database.
-- Includes question generation for retrieval evaluation using the OpenAI API.
+
 
 ### 2. `vector_db.ipynb`
-Using the all-MiniLM-L6-v2 embedding model, the scraped data was converted into embeddings and stored in a Chroma vector database. This setup allows efficient similarity searches.
-
 - Embedding model: `all-MiniLM-L6-v2`
 - Uses Chroma vector database.
+  
+Using the all-MiniLM-L6-v2 embedding model, the scraped data was converted into embeddings and stored in a Chroma vector database. This setup allows efficient similarity searches.
+
 
 ### 3. `RAG_LLM.ipynb`
 #### Prompt Engineering
 Effective prompt engineering was applied to ensure the model receives clear instructions, allowing it to think through the problem and break down complex tasks. This approach improves the quality of the generated responses.
+
 - The prompt structure is tested in the playground and follows clear instructions:
   - Give the model time to think.
   - Break down complex tasks.
@@ -88,3 +90,47 @@ Prompt Engineering: Well-designed prompts that give clear instructions and forma
 RAG Models: Combining retrieved content with the question in the prompt, especially with reranking, greatly improves the accuracy of the answers.
 
 Evaluation Metrics: BLEU and ROUGE-L scores provided valuable insights into the quality of the generated answers.
+
+
+### Analysis of Sample Outputs
+
+Example 1:
+
+Question: What is the average number of days it takes for VA to complete disability-related claims in May 2024?
+
+Content: 147.2 days Average number of days to complete disability-related claims in May 2024 Average number of days to complete disability-related claims in May 2024
+
+Basic LLM Answer:
+Output: "The average number of days it takes for VA to complete disability-related claims in May 2024 is 3 days."
+Analysis: This response is incorrect. It significantly deviates from the given content, indicating a potential issue with the model's understanding or generation process.
+
+RAG LLM Answer:
+Output: "147"
+Analysis: This response captures the essence but lacks completeness. The numerical value is correct, but it lacks context and additional information to be considered a comprehensive answer.
+
+RAG LLM with Reranking Answer:
+Output: "The average number of days it takes for VA to complete disability-related claims in May 2024 is 147.2 days."
+Analysis: This response is accurate and complete, providing both the numerical value and the context. It demonstrates the benefit of reranking in generating more detailed and precise answers.
+
+
+Example 2:
+
+Question: What factors affect the time it takes to review a claim for disability after it has been filed?
+
+Content: The time it takes to review your claim depends on these factors: The time it takes to review your claim depends on these factors: The type of claim you filed How many injuries or disabilities you claimed and how complex they are How long it takes us to collect the evidence we need to decide your claim
+
+Basic LLM Answer:
+Output: "The time it takes to review a claim for disability after it has been filed can vary depending on several factors, including the complexity of the claim, the availability of medical records and other evidence, and the workload of the VA regional office handling the claim. In general, the VA strives to process claims within a certain timeframe, but there may be delays due to these and other factors."
+Analysis: This response is detailed but partially generic. It does not fully reflect the specific factors mentioned in the content but provides a broader view.
+
+RAG LLM Answer:
+Output: "The type of claim you filed, how many injuries or disabilities you claimed and how complex they are, and how long it takes us to collect the evidence we need to decide your claim."
+Analysis: This response directly addresses the specific factors mentioned in the content. It's concise and accurate.
+
+RAG LLM with Reranking Answer:
+Output: "The time it takes to review a claim for disability after it has been filed is affected by the type of claim filed, the number and complexity of injuries or disabilities claimed, and the time it takes to collect the necessary evidence to decide the claim."
+Analysis: This response is similar to the RAG LLM answer but slightly more polished in phrasing. It effectively captures the key factors.
+
+Overall Analysis
+
+The RAG LLM with reranking generally provides the most accurate and comprehensive answers, closely adhering to the provided content. The Basic LLM sometimes introduces inaccuracies or additional information not present in the context, while the standard RAG LLM improves accuracy but may lack completeness. Reranking enhances the quality of the answers by refining the relevance and detail of the generated responses.
