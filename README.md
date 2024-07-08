@@ -137,3 +137,15 @@ Analysis: This response is similar to the RAG LLM answer but slightly more polis
 ## Overall Analysis
 
 The RAG LLM with reranking generally provides the most accurate and comprehensive answers, closely adhering to the provided content. The Basic LLM sometimes introduces inaccuracies or additional information not present in the context, while the standard RAG LLM improves accuracy but may lack completeness. Reranking enhances the quality of the answers by refining the relevance and detail of the generated responses.
+
+
+# Future steps to improve the performance
+Enhance Embedding and Retrieval
+
+Improve Vector Database Performance
+
+Apply knowledge graph LLM
+
+Fine-Tune on Domain-Specific Data
+
+Enhanced RAG and Reranking. Dynamic Context Window, Advanced Reranking Models
